@@ -1,8 +1,8 @@
-# AntigravityAnvil (`agy-anvil`)
+![AGY Anvil](AGY-Anvil-banner.jpg "AGY Anvil")
 
 > An opinionated development framework, lifecycle hooks, and progressive skills plugin for **Google Antigravity (AGY)**.
 
-AntigravityAnvil elevates Antigravity from an AI assistant into a rigorous, evidence-based pair-programming partner. Inspired by [ClaudeMallet](https://github.com/dfsramos/claude-mallet), it is engineered from the ground up for Antigravity's native architecture: self-contained plugins, declarative lifecycle hooks, progressive skills, and isolated subagent orchestration.
+AntigravityAnvil elevates Antigravity from an AI assistant into a rigorous, evidence-based pair-programming partner. Inspired by [Claude Mallet](https://github.com/dfsramos/claude-mallet), it is engineered from the ground up for Antigravity's native architecture: self-contained plugins, declarative lifecycle hooks, progressive skills, and isolated subagent orchestration.
 
 ---
 
@@ -109,4 +109,4 @@ agy-anvil/
 
 ## License
 
-MIT
+WTFPL - Do What The Fuck You Want To Public License
