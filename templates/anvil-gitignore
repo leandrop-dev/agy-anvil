@@ -1,0 +1,7 @@
+# AntigravityAnvil (.anvil) Storage Strategy
+
+# By default, share conventions, ADRs, memory, and features with the team.
+# Ignore temporary session markers and local diagnostic caches:
+.anvil/tmp/
+.anvil/**/.active
+.anvil/**/*.local.md

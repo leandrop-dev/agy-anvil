@@ -1,0 +1,20 @@
+{
+  "name": "agy-anvil",
+  "version": "0.1.0",
+  "description": "Opinionated development framework, lifecycle hooks, and progressive skills for Google Antigravity (AGY)",
+  "main": "hooks/session-start.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "antigravity",
+    "agy",
+    "plugin",
+    "subagents",
+    "hooks",
+    "skills"
+  ],
+  "author": "",
+  "license": "MIT"
+}

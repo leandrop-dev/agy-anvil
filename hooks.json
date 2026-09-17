@@ -1,0 +1,57 @@
+{
+  "anvil-write-guard": {
+    "PreToolUse": [
+      {
+        "matcher": "write_to_file|replace_file_content",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node hooks/write-guard.js",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  },
+  "anvil-push-guard": {
+    "PreToolUse": [
+      {
+        "matcher": "run_command",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node hooks/push-confirm.js",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  },
+  "anvil-session-start": {
+    "PreInvocation": [
+      {
+        "type": "command",
+        "command": "node hooks/session-start.js",
+        "timeout": 10
+      }
+    ]
+  },
+  "anvil-typecheck": {
+    "PostInvocation": [
+      {
+        "type": "command",
+        "command": "node hooks/typecheck.js",
+        "timeout": 20
+      }
+    ]
+  },
+  "anvil-stop-guard": {
+    "Stop": [
+      {
+        "type": "command",
+        "command": "node hooks/stop-guard.js",
+        "timeout": 10
+      }
+    ]
+  }
+}

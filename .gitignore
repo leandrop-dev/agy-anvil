@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# AntigravityAnvil workspace state
+.anvil/
+
+# Logs & debug caches
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS artifacts
+.DS_Store
+Thumbs.db
